@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-const tela = '_img/Panoramica.png';
+const tela = '_img/Panorama.png';
 const angulo = 140;     
 const area_da_borda = 0.25;    
 const velocidade_max = 0.7;

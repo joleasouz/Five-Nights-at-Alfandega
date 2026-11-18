@@ -1,10 +1,10 @@
 import * as THREE from 'three';
 
-const tela = '_img/Panorama.png';
+const tela = '_img/Panoramica.png';
 const angulo = 140;     
 const area_da_borda = 0.25;    
 const velocidade_max = 0.7;
-const suavidade = 10; 
+const suavidade = 20; 
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
